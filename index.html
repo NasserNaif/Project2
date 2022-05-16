@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container" style="background-color: beige">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-align-center"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a.5.5 0 0 1 .5.5V6h-1V1.5A.5.5 0 0 1 8 1zm0 14a.5.5 0 0 1-.5-.5V10h1v4.5a.5.5 0 0 1-.5.5zM2 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7z"
+            />
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">
+            Login
+          </button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </div>
+      </header>
+    </div>
+
+    <h1 class="h1 m-5" style="text-align: center">welcome to my store</h1>
+
+    <div
+      class="row m-4"
+      style="padding: 30px; padding-left: 150px; column-gap: 100px"
+    >
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_-EUsLfYo9beM3pxmaZGkqL7D7pundCKs-xMdn71YRcdguyFSrN7iPV0jWAuH9uoHGo&usqp=CAU"
+          class="card-img-top"
+          height="250px"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: bisque">
+          <h5 class="card-title">Old T-Shirt</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/713Q7o4zcvL._AC_SX679_.jpg"
+          class="card-img-top"
+          height="250px"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: bisque">
+          <h5 class="card-title">New T-shirt</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61qiTo0QiLL._AC_UL320_.jpg"
+          class="card-img-top"
+          height="250px"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: bisque">
+          <h5 class="card-title">Third T-Shirt</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-group" style="padding-left: 500px">
+      <button
+        type="button"
+        class="btn btn-danger"
+        style="background-color: Lightgreen; border: lightgreen"
+      >
+        Action
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+        style="background-color: lightgreen; border-color: lightblue"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu" style="background-color: lightgreen">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group" style="padding: 20px">
+      <button
+        type="button"
+        class="btn btn-danger"
+        style="background-color: lightblue; border: lightblue"
+      >
+        Action
+      </button>
+      <button
+        type="button"
+        style="background-color: lightblue; border-color: lightblue"
+        class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>© 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

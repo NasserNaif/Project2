@@ -1,0 +1,44 @@
+/* .FlexBox {
+  display: flex;
+  /* justify-content: center;
+    flex-direction: column-reverse; */
+/* align-items: center;
+  border: 1px solid;
+  height: 150px;
+  width: 60%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+} */
+
+/* .Par1{
+    border-right: 2px solid black;
+
+} */
+
+/* .h1 {
+  text-align: center;
+} */
+
+/* .Paragraph {
+  background-color: bisque;
+  width: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} */
+
+/* .GridFlex {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr;
+  border: 2px solid bisque;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  -ms-grid-column-align: 3;
+} */
+
+/* .GridItem {
+  border-right: 1px solid black;
+  background-color: aqua;
+} */
